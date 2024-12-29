@@ -31,7 +31,37 @@ sudo apt-get install qemu qemu-user qemu-user-static
    yxy@yxy-virtual-machine:~$ cd operating_system_work/      
    yxy@yxy-virtual-machine:~/operating_system_work$ cd kernel/      
    yxy@yxy-virtual-machine:~/operating_system_work/kernel$            
+2.   编译
+   ```
+yxy@yxy-virtual-machine:~/operating_system_work/kernel$ tree
+.
+├── drv
+│   ├── console.c 
+│   ├── disk.c
+│   └── font.c
+├── excp
+│   ├── exception.c
+│   └── exception_handler.S
+├── fs
+│   └── xtfs.c
+├── include
+│   └── xtos.h
+├── init
+│   ├── head.S
+│   └── main.c
+├── Makefile
+├── mm
+│   └── memory.c
+└── proc
+    ├── ipc.c
+    ├── proc0
+    │   ├── get_proc0_code.sh
+    │   └── proc0.S
+    ├── process.c
+    └── swtch.S
 
+8 directories, 16 files
+```
 ## loongarrch64-toolchain.cmake:
 为特定的目标架构（LoongArch64）生成正确的编译和链接指令
 ### .cmake指令解析
