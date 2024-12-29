@@ -28,9 +28,10 @@ sudo apt-get install qemu qemu-user qemu-user-static
 ## 代码运行
 1. 切换至工作文件夹operating_system_work      
 ```      
-   yxy@yxy-virtual-machine:~$ cd operating_system_work/      
-   yxy@yxy-virtual-machine:~/operating_system_work$ cd kernel/      
-   yxy@yxy-virtual-machine:~/operating_system_work/kernel$            
+   yxy@yxy-virtual-machine:~$ cd operating_system_work/
+   yxy@yxy-virtual-machine:~/operating_system_work$ cd kernel/
+   yxy@yxy-virtual-machine:~/operating_system_work/kernel$
+```
 2.   编译
 原有文件架构如下:      
 ```
