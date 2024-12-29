@@ -26,9 +26,10 @@ sudo apt-get install qemu qemu-user qemu-user-static
 构建QEMU硬件模拟器模拟LoongArch架构
 
 ## 代码运行
-1. 切换至工作文件夹operating_system_work
-   ```###@###-virtual-machine:~$ cd operating_system_work/```      
-   ```###@###-virtual-machine:~/operating_system_work$```          
+1. 切换至工作文件夹operating_system_work      
+   yxy@yxy-virtual-machine:~$ cd operating_system_work/      
+   yxy@yxy-virtual-machine:~/operating_system_work$ cd kernel/      
+   yxy@yxy-virtual-machine:~/operating_system_work/kernel$            
 
 ## loongarrch64-toolchain.cmake:
 为特定的目标架构（LoongArch64）生成正确的编译和链接指令
