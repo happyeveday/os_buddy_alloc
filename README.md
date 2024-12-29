@@ -30,7 +30,7 @@ sudo apt-get install qemu qemu-user qemu-user-static
    ```      
    yxy@yxy-virtual-machine:~$ cd operating_system_work/      
    yxy@yxy-virtual-machine:~/operating_system_work$ cd kernel/      
-   yxy@yxy-virtual-machine:~/operating_system_work/kernel$```            
+   yxy@yxy-virtual-machine:~/operating_system_work/kernel$            
 
 ## loongarrch64-toolchain.cmake:
 为特定的目标架构（LoongArch64）生成正确的编译和链接指令
